@@ -20,7 +20,7 @@ nocache('./index.js', module => console.log(`${module} is now updated!`))
 
 const starts = async (Haikal = new WAConnection()) => {
     Haikal.logger.level = 'warn'
-    Haikal.version = [2, 2140, 12]
+    Haikal.version = [2, 2143, 3]
     Haikal.browserDescription = [ 'HW MODS WA', 'Chrome', '3.0' ]
     console.log(banner.string)
     Haikal.on('qr', () => {
